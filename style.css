@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --accent-color: #00FF00;
+    --accent-grey: #E5E5E5;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-section {
+    color: var(--accent-grey);
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+}
+
+#container {
+    margin-top: 8em;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-and-en {
+    display: flex;
+    width: 30vw;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo-and-en h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.logo-and-en h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #666666;
+}
+
+.popular {
+    width: 30vw;
+    font-size: 14px;
+    display: grid;
+    justify-content: center;
+}
+
+.popular h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.menu-icon {
+    display: grid;
+    justify-content: right;
+    width: 30vw;
+}
+
+.menuicon {
+    width: 20px;
+    height: 20px;
+}
+
+#main-container-playlists {
+    margin-top: 10em;
+    width: 100%;
+    height: auto;
+    /* background-color: #666666; */
+    display: grid;
+    justify-content: center;
+}
+
+.openletter-one {
+    width: 706px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.KhanabadoshPos-one {
+    width: 706px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.KBA {
+    margin-top: 6em;
+}
+
+.SBA {
+    margin-top: 6em;
+}
+
+.ShubhPos-one {
+    width: 706px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.EMA {
+    margin-top: 6em;
+}
+
+.EminemPos-one {
+    width: 706px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.TWA {
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.TheWeekndPos-one {
+    width: 706px;
+    height: 250px;
+    border-radius: 25px;
+}

@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    --accent-color: #00FF00;
+    --accent-grey: #E5E5E5;
+}
+
+body {
+    background-color: black;
+    background-image: url(Bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-section {
+    width: 100%;
+    padding-top: 6em;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    display: grid;
+    justify-content: center;
+}
+
+#container {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.closeicon {
+    width: 12px;
+    height: 12px;
+}
+
+#parental-box {
+    width: 100%;
+    height: inherit;
+    display: grid;
+    justify-content: center;
+}
+
+.OLmainPos {
+    width: 1014px;
+    height: 477px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: sticky;
+    transition: all 0.5s ease;
+}
+
+.OLmainPos:hover{
+    width: 1070px;
+    height: 500px;
+}
+
+.album-about {
+    display: grid;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+}
+
+.parental-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    height: auto;
+}
+
+.horizontal-info {
+    display: grid;
+    justify-content: center;
+}
+
+.album-name {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    /* transform: rotate(180deg); */
+    padding-right: -70px;
+}
+
+.album-name h2 {
+    font-size: 20px;
+    color: var(--accent-color);
+    margin: 0;
+    font-weight: 800;
+}
+
+.album-description {
+    width: 70%;
+    margin-left: 15em;
+}
+
+.album-description h3 {
+    color: var(--accent-color);
+    font-weight: 300;
+}
+
+.album-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+.album-info {
+    width: 70%;
+    margin-top: 2em;
+    margin-left: 15em;
+    height: 50px;
+}
+
+.album-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.album-info li {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+.info {
+    width: 10em;
+}
+
+.info h3 {
+    color: var(--accent-color);
+    font-weight: 300;
+}
+
+.parental-album {
+    width: 100%;
+    height: inherit;
+    display: grid;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+}
+
+.audio-div {
+    margin-top: 3em;
+    width: 90vw;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio-div img {
+    width: 70px;
+    border-radius: 15px;
+    position: sticky;
+}
+
+.infoaudio h3 {
+    color: #00FF00;
+}
+
+.infoaudio p {
+    color: #666666;
+    /* position: absolute; */
+    /* z-index: -1;
+    font-size: 13px; */
+    width: 13em;
+}
+
+.infoaudio {
+    /* position: sticky; */
+    margin-right: 1em;
+    /* background-color: #FF0000; */
+}
+
+
+.audio-div audio {
+    width: 76%;
+    border: none;
+    height: 2em;
+    opacity: 1;
+    background-color: transparent;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button,
+audio::-webkit-media-controls-start-playback-button {
+    fill: #FF0000;
+    /* set the fill color to red */
+    background-color: #00FF00;
+    border-radius: 100%;
+}
+
+/* Change color of the audio voice level */
+audio::-webkit-media-controls-volume-slider-thumb {
+    background-color: #ff0000;
+    /* Change color to red */
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #00FF00;
+
+}
+
+.main-foot {
+    position: sticky;
+    margin-top: 4em;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.footer a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer a {
+    padding: 0 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #E5E5E5;
+    font-weight: 100;
+}
